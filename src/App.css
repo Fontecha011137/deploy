@@ -23,7 +23,7 @@ body {
 .container {
   width: 100%;
   max-width: 500px;
-  padding: 2rem;
+  padding: 32px; /* 2rem = 32px */
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -32,38 +32,38 @@ body {
 
 /* Estilo de la palabra */
 .palabra {
-  font-size: 2rem;
-  letter-spacing: 0.3rem;
-  margin-bottom: 1rem;
+  font-size: 32px; /* 2rem = 32px */
+  letter-spacing: 5px; /* 0.3rem ≈ 4.8px → 5px */
+  margin-bottom: 16px; /* 1rem = 16px */
 }
 
 /* Input para letras */
 .input-letra {
-  font-size: 1.5rem;
-  width: 3rem;
+  font-size: 24px; /* 1.5rem = 24px */
+  width: 48px; /* 3rem = 48px */
   text-align: center;
-  margin-right: 0.5rem;
+  margin-right: 8px; /* 0.5rem = 8px */
 }
 
 button {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
+  font-size: 16px; /* 1rem = 16px */
+  padding: 8px 16px; /* 0.5rem 1rem = 8px 16px */
   cursor: pointer;
 }
 
 .mensaje {
   color: orange;
-  margin-top: 0.5rem;
+  margin-top: 8px; /* 0.5rem = 8px */
 }
 
 .ganaste {
   color: green;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 16px; /* 1rem = 16px */
 }
 
 .perdiste {
   color: red;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 16px; /* 1rem = 16px */
 }
